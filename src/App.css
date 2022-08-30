@@ -1,0 +1,176 @@
+
+:root{
+  --themered:#D92D20;
+
+}
+
+
+nav{
+  background-color: white !important;
+}
+.flink{
+  color: white ;
+  text-decoration: none;
+}
+.card{
+  border: none !important;
+}
+.link{
+  color:black !important;
+}
+.link:hover{
+  color: var(--themered) !important;
+}
+
+
+.coe{
+  color: #98A294;
+}
+.sm{
+  color: #66708D;
+}
+.btn-st{
+  background-color: var(--themered)  !important;
+  color: white !important;
+  width: 8vw;
+  height: 6vh;
+  border-radius: 20px !important;
+}
+
+
+.non{
+  border:none !important;
+}
+
+.non:hover{
+color: var(--themered)!important;
+}
+
+
+.sect{
+background-color: var(--themered) !important;
+}
+.mid{
+  background-color: var(--themered) !important;
+  color: white;
+  border-radius: 0% !important ;
+}
+
+.lagos{
+  color: var(--themered) !important;
+}
+
+
+.cardi{
+  background-color: #F9FAFB !important;
+}
+
+.cardil{
+  background-color: var(--themered) !important;
+  width: 18rem !important;
+}
+
+.mid{
+  color: #F7D5D2;
+}
+
+
+@media  screen and (max-width:576px) {
+/* .cari{
+  width: 80vw !important;
+
+} */
+/* .colx{
+  margin-right: 1.2% !important;
+} */
+.img{
+  height: 6vh !important;
+}
+footer{
+  background-color: #101828;
+  height: 10vh;
+}
+
+}
+
+@media  screen and (min-width:576px) {
+body{
+  overflow-x: hidden !important;
+}
+.img{
+  height: 5vh !important;
+}
+
+footer{
+  background-color: #101828;
+  height: 15vh;
+}
+
+}@media  screen and (min-width:768px) {
+  .img{
+    height: 5vh !important;
+  }
+
+  .cardil{
+    background-color: var(--themered) !important;
+    width: 27rem !important;
+    height: 15rem !important;
+  }
+  .iy{
+    height:3vh !important;
+    width: 25vw !important;
+    border-radius: 22px !important;
+  }
+  footer{
+    background-color: #101828;
+    height: 20vh;
+  }
+
+}@media  screen and (min-width:992px) {
+  .img{
+    height: 8vh !important;
+  }
+  .cardil{
+    background-color: var(--themered) !important;
+    width: 27rem !important;
+    height: 15rem !important;
+  }
+  .iy{
+    height: 8vh !important;
+    width: 25vw !important;
+    border-radius: 22px !important;
+  }
+  footer{
+    background-color: #101828;
+    height:80vh;
+  }
+  .mn{
+    background-color: #1D2939;
+  }
+  .imgn{
+    height: 5vh !important;
+  }
+  .hs{
+    height: 0vh !important;
+  }
+  .coe{
+    font-size: 13px !important;
+  }
+}
+
+
+@media  screen and (min-width:1200px) {
+  .md{
+    height: 42vh !important;
+  }
+  .img{
+    height: 4vh !important;
+  }
+}
+
+
+@media  screen and (min-width:1400px) {
+  .md{
+    height: 42vh !important;
+  }
+}
